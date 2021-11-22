@@ -1,8 +1,8 @@
 type Props = {
-  status: string;
+  status?: string;
 };
 
-const HTTPImage = ({ status }: Props) => {
+const HTTPImage = ({ status = "404" }: Props) => {
   return (
     <div className='card my-3 p-4'>
       <img src={`https://http.cat/${status}`} alt='Cat Status' />
