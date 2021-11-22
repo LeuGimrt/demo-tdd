@@ -5,7 +5,7 @@ import HTTPImage from "./components/HTTPImage";
 import SearchSidebar from "./components/SearchSidebar";
 
 function App() {
-  const [status, setStatus] = useState<string>("");
+  const [status, setStatus] = useState<string>("100");
 
   return (
     <>

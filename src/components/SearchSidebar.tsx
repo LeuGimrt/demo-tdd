@@ -45,6 +45,7 @@ const SearchSidebar = ({ setStatus }: Props) => {
             <div
               style={{ display: inputIsValid ? "none" : "block" }}
               className='invalid-feedback'
+              data-testid='error-msg'
             >
               El número ingresado debe estar en el formato especificado
             </div>
